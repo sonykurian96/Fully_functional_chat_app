@@ -7,75 +7,79 @@ final defaultUsers = <String, User>{
       User(
     id: 'salvatore',
     extraData: {
-      'name': 'Salvatore Giordano',
+      'name': 'Sony Kurian',
       'image':
-          'https://avatars.githubusercontent.com/u/20601437?s=460&u=3f66c22a7483980624804054ae7f357cf102c784&v=4',
+          'https://avatars.githubusercontent.com/sonykurian96',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2FoaWwifQ.WnIUoB5gR2kcAsFhiDvkiD6zdHXZ-VSU2aQWWkhsvfo':
       User(
     id: 'sahil',
     extraData: {
-      'name': 'Sahil Kumar',
+      'name': 'Prajwal Upadhyay',
       'image':
-          'https://avatars.githubusercontent.com/u/25670178?s=400&u=30ded3784d8d2310c5748f263fd5e6433c119aa1&v=4',
+          'https://user-images.githubusercontent.com/67534990/127153060-12519745-b556-4c97-8f08-ed51171bfd7c.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmVuIn0.nAz2sNFGQwY7rl2Og2z3TGHUsdpnN53tOsUglJFvLmg':
       User(
     id: 'ben',
     extraData: {
-      'name': 'Ben Golden',
-      'image': 'https://avatars.githubusercontent.com/u/1581974?s=400&v=4',
+      'name': 'Tanmay Mahajan',
+      'image': 'https://user-images.githubusercontent.com/67534990/127152950-1ef1a751-584d-4d93-a806-0803e6d86639.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidGhpZXJyeSJ9.lEq6TrZtHzjoNtf7HHRufUPyGo_pa8vg4_XhEBp4ckY':
       User(
     id: 'thierry',
     extraData: {
-      'name': 'Thierry Schellenbach',
+      'name': 'Santosh Indulkar',
       'image':
-          'https://avatars.githubusercontent.com/u/265409?s=400&u=2d0e3bb1820db992066196bff7b004f0eee8e28d&v=4',
+          'https://user-images.githubusercontent.com/67534990/127155370-1d5abce2-c94e-448f-8312-97f885ac202e.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidG9tbWFzbyJ9.GLSI0ESshERMo2WjUpysD709NEtn1zmGimUN2an7g9o':
       User(
     id: 'tommaso',
     extraData: {
-      'name': 'Tommaso Barbugli',
-      'image': 'https://avatars.githubusercontent.com/u/88735?s=400&v=4',
+      'name': 'Kaushik Panchal',
+      'image': 'https://user-images.githubusercontent.com/67534990/127155659-3a1187b7-941b-4aa1-871d-011f6afe7dbf.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZGV2ZW4ifQ.z3zI4PqJnNhc-1o-VKcmb6BnnQ0oxFNCRHwEulHqcWc':
       User(
     id: 'deven',
     extraData: {
-      'name': 'Deven Joshi',
+      'name': 'Abhinav Rawat',
       'image':
-          'https://avatars.githubusercontent.com/u/26357843?s=400&u=0c61d890866e67bf69f58878be58915e9bfd39ee&v=4',
+          'https://user-images.githubusercontent.com/67534990/127155370-1d5abce2-c94e-448f-8312-97f885ac202e.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibmVldmFzaCJ9.3EdHegTxibrz3A9cTiKmpEyawwcCVB8FXnoFzr4eKvw':
       User(
     id: 'neevash',
     extraData: {
-      'name': 'Neevash Ramdial',
+      'name': 'Sushil Yadav',
       'image':
-          'https://avatars.githubusercontent.com/u/25674767?s=400&u=1d7333baf7dd9d143db8bfcdb31a838b89cfff9c&v=4',
+          'https://user-images.githubusercontent.com/67534990/127155370-1d5abce2-c94e-448f-8312-97f885ac202e.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoicWF0ZXN0MSJ9.fnelU7HcP7QoEEsCGteNlF1fppofzNlrnpDQuIgeKCU':
       User(
     id: 'qatest1',
     extraData: {
-      'name': 'QA test 1',
+      'name': 'trial account',
+      'image':
+         'https://user-images.githubusercontent.com/67534990/127155370-1d5abce2-c94e-448f-8312-97f885ac202e.jpeg',
     },
   ),
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoicWF0ZXN0MiJ9.vSCqAEbs2WVmMWsOsa7065Fsjq-rsTih6qsHPynl7XM':
       User(
     id: 'qatest2',
     extraData: {
-      'name': 'QA test 2',
+      'name': 'test account',
+      'image':
+          'https://user-images.githubusercontent.com/67534990/127155370-1d5abce2-c94e-448f-8312-97f885ac202e.jpeg',
     },
   ),
 };

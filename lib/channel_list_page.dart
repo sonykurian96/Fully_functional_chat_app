@@ -58,20 +58,20 @@ class _ChannelListPageState extends State<ChannelListPage> {
         ),
         label: 'Mentions',
       ),
-      // BottomNavigationBarItem(
-      //   icon: Stack(
-      //     clipBehavior: Clip.none,
-      //     children: [
-      //       Icon(
-      //         Icons.video_call_sharp,
-      //         color: _isSelected(2)
-      //             ? StreamChatTheme.of(context).colorTheme.textHighEmphasis
-      //             : Colors.grey,
-      //       )
-      //     ],
-      //   ),
-      //   label: 'Video Call',
-      // ),
+      BottomNavigationBarItem(
+        icon: Stack(
+          clipBehavior: Clip.none,
+          children: [
+            Icon(
+              Icons.video_call_sharp,
+              color: _isSelected(2)
+                  ? StreamChatTheme.of(context).colorTheme.textHighEmphasis
+                  : Colors.grey,
+            )
+          ],
+        ),
+        label: 'Video Call',
+      ),
     ];
   }
 
@@ -115,7 +115,7 @@ class _ChannelListPageState extends State<ChannelListPage> {
         children: [
           ChannelList(),
           UserMentionsPage(),
-          // VideoCallPage(),
+          VideoCallPage(),
         ],
       ),
     );
@@ -298,23 +298,25 @@ class LeftDrawer extends StatelessWidget {
   }
 }
 
-// class VideoCallPage extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: Text("It will take some time"),
-//         backgroundColor: Colors.red,
-//       ),
-//       body: Center(
-//         child: Text(
-//           "Kya pata kitna time lag jaye",
-//           style: TextStyle(
-//             fontSize: 38
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
+class VideoCallPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("In development"),
+        centerTitle: true,
+        backgroundColor: Colors.red,
+      ),
+      body: Center(
+        child: Text(
+          "Have patience",
+          style: TextStyle(
+            fontSize: 25,
+            color: Colors.grey
+          ),
+        ),
+      ),
+    );
+  }
+}
 

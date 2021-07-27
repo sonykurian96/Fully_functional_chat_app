@@ -41,12 +41,12 @@ class ChooseUserPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 13.0),
               child: Text(
-                'Welcome to Stream Chat',
+                'Welcome',
                 style: StreamChatTheme.of(context).textTheme.title,
               ),
             ),
             Text(
-              'Select a user to try the Flutter SDK:',
+              'Select any users to try out our app',
               style: StreamChatTheme.of(context).textTheme.body,
             ),
             Expanded(
@@ -135,7 +135,7 @@ class ChooseUserPage extends StatelessWidget {
                                 StreamChatTheme.of(context).textTheme.bodyBold,
                           ),
                           subtitle: Text(
-                            'Stream test account',
+                            'verified account',
                             style: StreamChatTheme.of(context)
                                 .textTheme
                                 .footnote
