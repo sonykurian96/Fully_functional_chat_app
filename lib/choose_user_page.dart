@@ -10,9 +10,9 @@ import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 import 'main.dart';
 import 'routes/routes.dart';
 
-const kStreamApiKey = 'wfmdm2z5pmsb';
-const kStreamUserId = 'sony';
-const kStreamToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic29ueSJ9.NrIyXXyKyxFlO-ypoxPhSkGl7Vqf2IsdSAZKSgsBFRE';
+const kStreamApiKey = 'STREAM_API_KEY';
+const kStreamUserId = 'STREAM_USER_ID';
+const kStreamToken = 'STREAM_TOKEN';
 
 class ChooseUserPage extends StatelessWidget {
   @override

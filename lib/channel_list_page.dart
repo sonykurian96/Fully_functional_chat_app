@@ -2,8 +2,10 @@ import 'dart:async';
 
 import 'package:example/routes/routes.dart';
 import 'package:example/user_mentions_page.dart';
+import 'package:example/video_conference/video_call_home.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_app_badger/flutter_app_badger.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
@@ -70,7 +72,7 @@ class _ChannelListPageState extends State<ChannelListPage> {
             )
           ],
         ),
-        label: 'Video Call',
+        label: 'Video Conference',
       ),
     ];
   }
@@ -298,25 +300,7 @@ class LeftDrawer extends StatelessWidget {
   }
 }
 
-class VideoCallPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("In development"),
-        centerTitle: true,
-        backgroundColor: Colors.red,
-      ),
-      body: Center(
-        child: Text(
-          "Have patience",
-          style: TextStyle(
-            fontSize: 25,
-            color: Colors.grey
-          ),
-        ),
-      ),
-    );
-  }
-}
+// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHLvDOav8U99oOSPVN9eAPMXwpF4txc7e5lA&usqp=CAU
+// https://user-images.githubusercontent.com/67534990/127504214-be3d14f8-247e-4d82-b03b-4be2b10099b0.png
+
 
