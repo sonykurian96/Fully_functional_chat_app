@@ -1,9 +1,24 @@
+import 'package:example/video_conference/video_call_main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:share_plus/share_plus.dart';
+import 'package:uuid/uuid.dart';
 
-class NewMeeting extends StatelessWidget {
+class NewMeeting extends StatefulWidget {
 
-  final String _meetingCode = "akb-edg-hmk";
+  @override
+  _NewMeetingState createState() => _NewMeetingState();
+}
+
+class _NewMeetingState extends State<NewMeeting> {
+  String _meetingCode = "ak2ed5hm";
+
+  @override
+  void initState() {
+    var uuid = Uuid();
+    _meetingCode = uuid.v1().substring(0,8);
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +75,9 @@ class NewMeeting extends StatelessWidget {
       ),
       Divider(thickness: 1, height: 40, indent: 20, endIndent: 20),
       ElevatedButton.icon(
-        onPressed: () {},
+        onPressed: () {
+          Share.share("Meeting code : $_meetingCode");
+        },
         icon: Icon(Icons.arrow_drop_down),
         label: Text("Share invite"),
         style: ElevatedButton.styleFrom(
@@ -74,7 +91,11 @@ class NewMeeting extends StatelessWidget {
       ),
       SizedBox(height: 20),
       OutlinedButton.icon(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(context,
+            MaterialPageRoute(builder: (_)=> VideoCall(channel: _meetingCode.trim()))
+          );
+        },
         icon: Icon(Icons.video_call),
         label: Text("Start Call"),
         style: OutlinedButton.styleFrom(
