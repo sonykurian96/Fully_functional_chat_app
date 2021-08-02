@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   stream_chat_flutter: ^2.0.0
+  agora_uikit:
   stream_chat_persistence: ^2.0.0
   flutter_local_notifications: ^5.0.0+4
   flutter_svg: ^0.22.0

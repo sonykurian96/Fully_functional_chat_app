@@ -30,6 +30,7 @@
 .pub-cache/
 .pub/
 /build/
+lib/video_conference/keys.dart
 
 # Web related
 lib/generated_plugin_registrant.dart

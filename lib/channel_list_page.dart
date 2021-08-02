@@ -117,7 +117,7 @@ class _ChannelListPageState extends State<ChannelListPage> {
         children: [
           ChannelList(),
           UserMentionsPage(),
-          VideoCallPage(),
+          VideoCallHome(),
         ],
       ),
     );
